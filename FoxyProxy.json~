@@ -1,0 +1,91 @@
+{
+  "mode": "pattern",
+  "sync": false,
+  "autoBackup": true,
+  "passthrough": "",
+  "theme": "moonlight",
+  "container": {
+    "incognito": "192.168.1.221:9050"
+  },
+  "commands": {
+    "setProxy": "",
+    "setTabProxy": "192.168.1.1:1080",
+    "includeHost": "",
+    "excludeHost": ""
+  },
+  "data": [
+    {
+      "active": true,
+      "title": "Local_Proxy",
+      "type": "socks5",
+      "hostname": "192.168.1.1",
+      "port": "1080",
+      "username": "",
+      "password": "",
+      "cc": "RU",
+      "city": "",
+      "color": "#99c1f1",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [
+        {
+          "type": "wildcard",
+          "title": "catbox.moe",
+          "pattern": "*.catbox.moe",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "wixmp.com",
+          "pattern": "*.wixmp.com",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "artixlinux.org",
+          "pattern": "*.artixlinux.org",
+          "active": true
+        },
+        {
+          "type": "regex",
+          "title": "4chan.org",
+          "pattern": "^https?://([a-zA-Z0-9-]+\\.)?(4chan\\.org|4cdn\\.org).*",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "mail.proton.me",
+          "pattern": "*.proton.me",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "privacyredirect.com",
+          "pattern": "*.privacyredirect.com",
+          "active": true
+        }
+      ],
+      "exclude": [],
+      "tabProxy": []
+    },
+    {
+      "active": true,
+      "title": "TOR",
+      "type": "socks5",
+      "hostname": "192.168.1.221",
+      "port": "9050",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#ffd700",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [],
+      "exclude": [],
+      "tabProxy": []
+    }
+  ]
+}
