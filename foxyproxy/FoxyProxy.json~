@@ -8,9 +8,9 @@
     "incognito": "192.168.1.221:9050"
   },
   "commands": {
-    "setProxy": "192.168.1.221:1080",
-    "setTabProxy": "192.168.1.221:1080",
-    "includeHost": "192.168.1.221:1080",
+    "setProxy": "",
+    "setTabProxy": "192.168.1.1:1080",
+    "includeHost": "",
     "excludeHost": ""
   },
   "data": [
@@ -18,7 +18,7 @@
       "active": true,
       "title": "Local_Proxy",
       "type": "socks5",
-      "hostname": "192.168.1.221",
+      "hostname": "192.168.1.1",
       "port": "1080",
       "username": "",
       "password": "",
