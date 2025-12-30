@@ -54,9 +54,38 @@
           "active": false
         },
         {
-          "type": "regex",
+          "include": "include",
+          "type": "wildcard",
           "title": "youtube",
-          "pattern": "^https?://([a-zA-Z0-9-]+\\.)?(youtube\\.com|ggpht\\.com|ytimg\\.com|googlevideo\\.com).*",
+          "pattern": "*://*.youtube.com/*",
+          "active": true
+        },
+        {
+          "include": "include",
+          "type": "wildcard",
+          "title": "youtube",
+          "pattern": "*://*.youtu.be/*",
+          "active": true
+        },
+        {
+          "include": "include",
+          "type": "wildcard",
+          "title": "youtube",
+          "pattern": "*://*.ggpht.com/*",
+          "active": true
+        },
+        {
+          "include": "include",
+          "type": "wildcard",
+          "title": "youtube",
+          "pattern": "*://*.ytimg.com/*",
+          "active": true
+        },
+        {
+          "include": "include",
+          "type": "wildcard",
+          "title": "youtube",
+          "pattern": "*://*.googlevideo.com/*",
           "active": true
         },
         {
